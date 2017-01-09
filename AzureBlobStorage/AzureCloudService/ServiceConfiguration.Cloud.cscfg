@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="BlobStorage">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=myblobstorage2016;AccountKey=BrbYU4L5LVH8NHSQkXnFEviqQeHjBPJZO55hkx0t2x9q5PGn+F58OwaEbX3AQejHuUDipG2v39tbkwYWz6SrZA==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
